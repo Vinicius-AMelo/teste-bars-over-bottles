@@ -1,5 +1,6 @@
 {
   "name": "teste-bars-over-bottles",
+  "homepage": "teste-bars-over-bottles/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
