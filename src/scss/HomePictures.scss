@@ -1,0 +1,33 @@
+.pictures {
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  margin: 50px auto;
+  gap: 30px;
+
+  .vertical_pictures {
+    gap: 30px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+    #pictureOne {
+      background-image: url("../../public/assets/images/ca12.jpg");
+      height: 100%;
+      padding: 10%;
+    }
+
+    #pictureTwo {
+      background-image: url("../../public/assets/images/ca2.jpg");
+      height: 100%;
+      padding: 10%;
+    }
+  }
+
+  #pictureThree {
+    background-image: url("../../public/assets/images/ca3.jpg");
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 10%;
+  }
+}
