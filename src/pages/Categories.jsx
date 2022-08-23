@@ -1,10 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 function Categories() {
   return (
-    <main>
-      <h1>Categories</h1>
-    </main>
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
 
