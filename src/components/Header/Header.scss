@@ -1,0 +1,33 @@
+.main_header {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  span {
+    display: flex;
+    justify-content: space-evenly;
+
+    h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 500;
+    }
+  }
+
+
+  .Header_nav {
+    margin: 0 auto;
+    width: 50%;
+
+    ul {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+
+      li:last-child {
+        color: red;
+      }
+    }
+  }
+}
