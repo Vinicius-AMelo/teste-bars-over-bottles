@@ -1,8 +1,17 @@
+@import '../../../scss/mixins';
+
 .pictures {
   height: 720px;
   width: 68.75vw;
   display: flex;
   margin: 50px auto;
+
+  @include mobile {
+    width: 100vw;
+    flex-direction: column;
+    height: fit-content;
+    gap: 30px;
+  }
 
 
   .vertical_pictures {
@@ -20,6 +29,11 @@
       background-size: 130%;
       background-position-x: -100px;
 
+      @include mobile {
+        width: 100vw;
+        // height: fit-content;
+      }
+
       p {
         margin-bottom: 20px;
       }
@@ -30,22 +44,27 @@
     }
 
     #pictureOne {
-      background-image: url("../assets/images/ca13.jpg");
+      background-image: url("../../../assets/images/ca13.jpg");
     }
 
     #pictureTwo {
-      background-image: url("../assets/images/ca23.jpg");
+      background-image: url("../../../assets/images/ca23.jpg");
     }
   }
 
   #pictureThree {
-    background-image: url("../assets/images/ca33.jpg");
+    background-image: url("../../../assets/images/ca33.jpg");
     width: 33.75vw;
     height: 720px;
     background-size: 120%;
     background-position-x: -80px;
     padding-top: 5%;
     padding-left: 10%;
+
+    @include mobile {
+      width: 100vw;
+      height: 345px;
+    }
 
     p {
       margin-bottom: 20px;

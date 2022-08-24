@@ -1,14 +1,26 @@
+@import '../../scss/mixins';
+
 .main_header {
   margin: 0 auto;
   padding: 37.5px 0;
   height: 250px;
   width: 73.25vw;
 
+  @include mobile {
+    margin: 0;
+    width: 100vw;
+  }
+
   span {
     display: flex;
     justify-content: space-between;
     padding: 0 2%;
     margin-bottom: 55px;
+
+    @include mobile {
+      justify-content: space-evenly;
+      padding: 0;
+    }
 
     h1 {
       font-family: 'Libre Baskerville', serif;
@@ -25,12 +37,22 @@
     margin: 45px auto;
     width: 39.375vw;
 
+    @include mobile {
+      width: 100vw;
+    }
+
     ul {
       list-style: none;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
 
-      li:last-child {
+      a {
+        color: black;
+      }
+
+      li:last-child>a {
         color: red;
       }
     }

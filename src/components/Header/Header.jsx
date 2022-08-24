@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Header.scss'
 
 function Header() {
@@ -12,12 +13,24 @@ function Header() {
       <hr />
       <nav className="Header_nav">
         <ul>
-          <li>HOME</li>
-          <li>CAMISAS</li>
-          <li>BLUSAS</li>
-          <li>CALÇAS</li>
-          <li>ACESSÓRIOS</li>
-          <li>OUTLET</li>
+          <li>
+            <NavLink to="/">HOME</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Categories">CAMISAS</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Categories">BLUSAS</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Categories">CALÇAS</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Categories">ACESSÓRIOS</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Categories">OUTLET</NavLink>
+          </li>
         </ul>
       </nav>
     </header>

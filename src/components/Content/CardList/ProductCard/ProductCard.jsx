@@ -5,7 +5,7 @@ import './ProductCard.scss'
 function ProductCard({ product }) {
   return (
     <div className="card">
-      <div className="gege" />
+      <img src={product.photo} alt="" />
       <div className="infos">
         <p id="name">{product.name}</p>
         <p>R$ {product.price}</p>

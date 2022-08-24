@@ -1,9 +1,14 @@
+@import '../../scss/mixins';
+
 .main_footer {
   background-color: #fafafa;
   height: 350px;
   font-weight: 600;
+  margin-top: 20px;
 
-
+  @include mobile {
+    height: 700px;
+  }
 
   div {
     margin: 0 auto;
@@ -13,6 +18,11 @@
     display: flex;
     justify-content: space-between;
 
+    @include mobile {
+      gap: 35px;
+      flex-direction: column;
+    }
+
     ul {
       width: 30vw;
       list-style: none;
@@ -20,10 +30,18 @@
       flex-direction: column;
       flex-wrap: wrap;
       gap: 1.25rem;
+
+      @include mobile {
+        width: 100%;
+      }
     }
 
     span {
       width: 22vw;
+
+      @include mobile {
+        width: 100%;
+      }
 
 
       button {
@@ -34,6 +52,10 @@
         text-align: end;
         background-color: #fff;
         border: 1px solid gray;
+
+        @include mobile {
+          margin-top: 10px;
+        }
       }
     }
   }
@@ -42,6 +64,10 @@
     width: 73.25vw;
     margin: 0 auto;
     border: 1px solid #ececec;
+
+    @include mobile {
+      width: 100vw;
+    }
   }
 
   footer {
@@ -52,14 +78,29 @@
     justify-content: space-between;
     align-items: center;
 
+    @include mobile {
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+
     ul {
       list-style: none;
       display: flex;
       gap: 4vw;
+
+      @include mobile {
+        gap: 10px;
+        width: 100vw;
+        justify-content: space-evenly;
+      }
+
+
     }
 
     .icons {
       gap: 1vw;
+
+
     }
   }
 }

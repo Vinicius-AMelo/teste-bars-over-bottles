@@ -1,3 +1,5 @@
+@import '../../../scss/mixins';
+
 .main_content {
   display: flex;
   flex-direction: column;
@@ -15,8 +17,16 @@
   }
 
   .banner {
-    background-image: url("../assets/images/banner2.jpg");
+    background-image: url("../../../assets/images/banner1.jpg");
+
     height: 676px;
+    width: 100vw;
     margin-bottom: 90px;
+
+    @include mobile {
+      background-size: 100%;
+      height: 140px;
+      margin: 40px 0;
+    }
   }
 }

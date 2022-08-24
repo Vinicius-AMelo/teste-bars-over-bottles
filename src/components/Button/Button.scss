@@ -1,3 +1,5 @@
+@import '../../scss/mixins';
+
 .btn {
   height: 60px;
   width: 14.5vw;
@@ -8,4 +10,7 @@
   outline: 1px solid #777777;
   outline-offset: -7px;
 
+  @include mobile {
+    width: 80vw;
+  }
 }

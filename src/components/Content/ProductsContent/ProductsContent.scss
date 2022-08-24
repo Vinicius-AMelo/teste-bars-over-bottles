@@ -1,3 +1,5 @@
+@import '../../../scss/mixins';
+
 .main_content {
   width: 100%;
   display: flex;
@@ -18,13 +20,24 @@
   .content {
     width: 73.25vw;
     display: flex;
-    // flex-direction: column;
     margin: 70px auto;
     gap: 85px;
+
+    @include mobile {
+      flex-direction: column;
+      width: 100vw;
+      margin: 0px auto;
+    }
 
     img {
       width: 36.5vw;
       height: 45vw;
+
+      @include mobile {
+        // flex-direction: column;
+        width: 100vw;
+        height: 600px;
+      }
     }
 
     .infos {
@@ -32,6 +45,13 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
+
+      @include mobile {
+        margin: 0 auto;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+      }
 
       h1 {
         font-weight: 500;
@@ -91,10 +111,23 @@
       form {
         display: flex;
 
+        @include mobile {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          width: 100vw;
+        }
+
         input {
           height: 60px;
           width: 10.6vw;
+
+          @include mobile {
+            flex-direction: column;
+            width: 80vw;
+          }
         }
+
       }
     }
   }
