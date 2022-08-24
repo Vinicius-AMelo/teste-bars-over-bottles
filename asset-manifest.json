@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/teste-bars-over-bottles/static/css/main.7044b82e.css",
-    "main.js": "/teste-bars-over-bottles/static/js/main.885e2e69.js",
-    "static/media/banner2.jpg": "/teste-bars-over-bottles/static/media/banner2.c5e6a49ca3f2e7e02d93.jpg",
-    "static/media/ca33.jpg": "/teste-bars-over-bottles/static/media/ca33.bedf5af9b18e721cce51.jpg",
-    "static/media/ca23.jpg": "/teste-bars-over-bottles/static/media/ca23.0aaab3622dacd552b318.jpg",
-    "static/media/ca13.jpg": "/teste-bars-over-bottles/static/media/ca13.0e197dc21563ac723038.jpg",
+    "main.css": "/teste-bars-over-bottles/static/css/main.ff87366c.css",
+    "main.js": "/teste-bars-over-bottles/static/js/main.d248d79f.js",
     "index.html": "/teste-bars-over-bottles/index.html",
-    "main.7044b82e.css.map": "/teste-bars-over-bottles/static/css/main.7044b82e.css.map",
-    "main.885e2e69.js.map": "/teste-bars-over-bottles/static/js/main.885e2e69.js.map"
+    "main.ff87366c.css.map": "/teste-bars-over-bottles/static/css/main.ff87366c.css.map",
+    "main.d248d79f.js.map": "/teste-bars-over-bottles/static/js/main.d248d79f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7044b82e.css",
-    "static/js/main.885e2e69.js"
+    "static/css/main.ff87366c.css",
+    "static/js/main.d248d79f.js"
   ]
 }
