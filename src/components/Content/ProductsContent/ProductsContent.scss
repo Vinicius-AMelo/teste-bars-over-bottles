@@ -1,6 +1,6 @@
 @import '../../../scss/mixins';
 
-.main_content {
+.products_content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -93,6 +93,11 @@
       }
 
       .cores {
+
+        li {
+          cursor: pointer;
+        }
+
         li:nth-child(1) {
           background-color: #0069cb;
           color: #0069cb;
@@ -122,6 +127,7 @@
           list-style: none;
           padding: 5px 10px;
           background-color: #e5e5e5;
+          cursor: pointer;
 
           &:nth-child(2) {
             background-color: #000000;

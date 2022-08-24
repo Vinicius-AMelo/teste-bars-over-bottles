@@ -1,5 +1,12 @@
 import React from 'react'
 import './Footer.scss'
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaTumblr,
+  FaPinterestP,
+} from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -29,11 +36,21 @@ function Footer() {
           <li>MEUS PEDIDOS</li>
         </ul>
         <ul className="icons">
-          <li>f</li>
-          <li>tw</li>
-          <li>i</li>
-          <li>tu</li>
-          <li>p</li>
+          <li>
+            <FaFacebookF />
+          </li>
+          <li>
+            <FaTwitter />
+          </li>
+          <li>
+            <FaInstagram />
+          </li>
+          <li>
+            <FaTumblr />
+          </li>
+          <li>
+            <FaPinterestP />
+          </li>
         </ul>
       </footer>
     </footer>

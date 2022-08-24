@@ -33,4 +33,14 @@ function CardList() {
 
 ```
 
+# Navegação
 
+## Home
+A pagina Home é renderizada inicialmente, mas também pode ser acessada clicando no link HOME
+encontrado no cabeçalho.
+
+## Categorias
+A página Categorias pode ser acessada clicando nos demais links de categoria encontrados no cabeçalho.
+
+## Produtos
+A página de Produtos pode ser acessada clicando em qualquer dos produtos renderizados dinâmicamente.

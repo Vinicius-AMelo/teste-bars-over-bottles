@@ -7,7 +7,7 @@ import Button from '../../Button/Button'
 
 function ProductsContent() {
   return (
-    <main className="main_content">
+    <main className="products_content">
       <span className="faixa">
         <p>Home - </p>
         <p>Blusas e Camisas - </p>

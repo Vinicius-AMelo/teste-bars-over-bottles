@@ -1,14 +1,21 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Header.scss'
+import { FaPhone, FaShoppingBag } from 'react-icons/fa'
 
 function Header() {
   return (
     <header className="main_header">
       <span>
-        <p>11 4191 4399</p>
+        <p>
+          <FaPhone />
+          11 4191 4399
+        </p>
         <h1>AVIATO</h1>
-        <p>R$ 0.00</p>
+        <p>
+          <FaShoppingBag />
+          R$ 0.00
+        </p>
       </span>
       <hr />
       <nav className="Header_nav">

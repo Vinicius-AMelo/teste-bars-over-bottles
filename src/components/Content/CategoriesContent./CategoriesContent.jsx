@@ -1,5 +1,6 @@
 import React from 'react'
 import './CategoriesContent.scss'
+import { FaGripHorizontal, FaList } from 'react-icons/fa'
 import CardList from '../CardList/CardList'
 
 function CategoriesContent() {
@@ -29,7 +30,11 @@ function CategoriesContent() {
             <strong> 10</strong>
           </p>
         </div>
-        <p>VIEW</p>
+        <p className="view">
+          VIEW
+          <FaGripHorizontal />
+          <FaList />
+        </p>
       </span>
       <CardList />
       <ul className="menu">

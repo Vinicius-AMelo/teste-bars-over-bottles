@@ -31,6 +31,7 @@
     &.categories>li {
       padding: 10px;
       border: 1px solid black;
+      cursor: pointer;
     }
   }
 
@@ -44,6 +45,11 @@
       display: flex;
       gap: 50px;
     }
+
+    .view {
+      display: flex;
+      gap: 10px;
+    }
   }
 
   .menu {
@@ -52,6 +58,7 @@
 
     li {
       padding: 10px 15px;
+      cursor: pointer;
 
       &:first-child {
         color: #ffffff;

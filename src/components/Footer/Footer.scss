@@ -6,8 +6,13 @@
   font-weight: 600;
   margin-top: 20px;
 
+
   @include mobile {
     height: 700px;
+  }
+
+  li {
+    cursor: pointer;
   }
 
   div {
@@ -31,6 +36,8 @@
       flex-wrap: wrap;
       gap: 1.25rem;
 
+
+
       @include mobile {
         width: 100%;
       }
@@ -52,6 +59,8 @@
         text-align: end;
         background-color: #fff;
         border: 1px solid gray;
+        cursor: pointer;
+
 
         @include mobile {
           margin-top: 10px;
