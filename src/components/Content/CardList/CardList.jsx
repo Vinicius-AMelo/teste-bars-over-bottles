@@ -8,9 +8,7 @@ function CardList() {
 
   useEffect(() => {
     axios
-      .get('https://bob-teste-front-end.herokuapp.com/api/products.json', {
-        headers: { 'Access-Control-Allow-Origin': '*' },
-      })
+      .get('https://bob-teste-front-end.herokuapp.com/api/products.json')
       .then((res) => {
         setProductList(res)
       })
