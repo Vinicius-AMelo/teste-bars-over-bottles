@@ -75,9 +75,9 @@ function CardList() {
   return (
     <main className="ytr">
       <div className="main_products">
-        {arr.map((product) => (
+        {arr.map((product, index) => (
           <NavLink to="/Products">
-            <ProductCard product={product} />
+            <ProductCard key={index} product={product} />
           </NavLink>
         ))}
       </div>

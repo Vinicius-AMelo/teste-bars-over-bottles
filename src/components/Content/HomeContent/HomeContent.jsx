@@ -8,7 +8,11 @@ function HomeContent() {
   return (
     <main className="main_content">
       <div className="banner">
-        <span>a</span>
+        <span>
+          <h2>summerCollection</h2>
+          <p>Lorem ipsum dolor sit amet consectetur!!</p>
+          <Button text="Comprar Agora" />
+        </span>
       </div>
       <h1>TENDÊNCIAS</h1>
       <HomePictures />

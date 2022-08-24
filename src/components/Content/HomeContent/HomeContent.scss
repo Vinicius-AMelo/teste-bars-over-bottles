@@ -17,21 +17,45 @@
   }
 
   .banner {
-    background-image: url("../../../assets/images/banner1.jpg");
+    background-image: url("../../../assets/images/banner2.jpg");
 
     height: 676px;
     width: 100vw;
     margin-bottom: 90px;
 
+    span {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 10% 15%;
+
+      @include tablet {
+        padding: 10% 2%;
+
+        p {
+          width: 300px;
+        }
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .btn {
+      margin: 0;
+    }
+
+
     @include mobile {
       background-size: 100%;
-      height: 140px;
+      height: 240px;
       margin: 40px 0;
     }
 
     @include tablet {
       background-size: 100%;
-      height: 240px;
+      height: 340px;
       margin: 40px 0;
     }
   }

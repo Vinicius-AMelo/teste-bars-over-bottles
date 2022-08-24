@@ -23,6 +23,7 @@
     "comma-dangle": 0,
     "prettier/prettier": "error",
     "react/prop-types": 0,
+    "react/no-array-index-key": 0,
     "react/jsx-filename-extension": [
       1,
       {
