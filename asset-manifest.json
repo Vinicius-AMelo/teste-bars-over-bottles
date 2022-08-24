@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/teste-bars-over-bottles/static/css/main.37f63ef3.css",
-    "main.js": "/teste-bars-over-bottles/static/js/main.9b334557.js",
+    "main.js": "/teste-bars-over-bottles/static/js/main.22c72a5f.js",
     "static/media/image.jpg": "/teste-bars-over-bottles/static/media/image.72a7e61515b6f1b356f4.jpg",
     "index.html": "/teste-bars-over-bottles/index.html",
     "main.37f63ef3.css.map": "/teste-bars-over-bottles/static/css/main.37f63ef3.css.map",
-    "main.9b334557.js.map": "/teste-bars-over-bottles/static/js/main.9b334557.js.map"
+    "main.22c72a5f.js.map": "/teste-bars-over-bottles/static/js/main.22c72a5f.js.map"
   },
   "entrypoints": [
     "static/css/main.37f63ef3.css",
-    "static/js/main.9b334557.js"
+    "static/js/main.22c72a5f.js"
   ]
 }
