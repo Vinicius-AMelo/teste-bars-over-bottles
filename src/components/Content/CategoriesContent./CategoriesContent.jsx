@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../scss/CategoriesContent.scss'
-import CardList from './CardList/CardList'
+import './CategoriesContent.scss'
+import CardList from '../CardList/CardList'
 
 function CategoriesContent() {
   return (

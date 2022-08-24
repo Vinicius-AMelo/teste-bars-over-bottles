@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoriesContent from '../components/Content/CategoriesContent'
+import CategoriesContent from '../components/Content/CategoriesContent./CategoriesContent'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 

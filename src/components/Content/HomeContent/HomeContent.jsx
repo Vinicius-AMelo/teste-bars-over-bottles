@@ -2,6 +2,7 @@ import React from 'react'
 import CardList from '../CardList/CardList'
 import HomePictures from './HomePictures'
 import Button from '../../Button/Button'
+import './HomeContent.scss'
 
 function HomeContent() {
   return (
