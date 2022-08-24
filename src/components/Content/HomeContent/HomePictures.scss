@@ -13,6 +13,13 @@
     gap: 30px;
   }
 
+  @include tablet {
+    width: 100vw;
+    flex-direction: column;
+    height: fit-content;
+    gap: 30px;
+  }
+
 
   .vertical_pictures {
     gap: 30px;
@@ -30,6 +37,11 @@
       background-position-x: -100px;
 
       @include mobile {
+        width: 100vw;
+        // height: fit-content;
+      }
+
+      @include tablet {
         width: 100vw;
         // height: fit-content;
       }
@@ -64,6 +76,11 @@
     @include mobile {
       width: 100vw;
       height: 345px;
+    }
+
+    @include tablet {
+      width: 100vw;
+      height: 555px;
     }
 
     p {

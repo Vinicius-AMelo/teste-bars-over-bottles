@@ -29,14 +29,29 @@
       margin: 0px auto;
     }
 
+    @include tablet {
+      flex-direction: column;
+      width: 100vw;
+      margin: 0px auto;
+    }
+
+
+
+
     img {
       width: 36.5vw;
       height: 45vw;
 
       @include mobile {
-        // flex-direction: column;
+
         width: 100vw;
         height: 600px;
+      }
+
+      @include tablet {
+
+        width: 100vw;
+        height: 700px;
       }
     }
 
@@ -47,6 +62,13 @@
       gap: 30px;
 
       @include mobile {
+        margin: 0 auto;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+      }
+
+      @include tablet {
         margin: 0 auto;
         width: 80vw;
         justify-content: center;
@@ -118,13 +140,28 @@
           width: 100vw;
         }
 
+        @include tablet {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          width: 100vw;
+        }
+
         input {
           height: 60px;
           width: 10.6vw;
 
-          @include mobile {
+          @include tablet {
             flex-direction: column;
             width: 80vw;
+          }
+
+          @include mobile {
+            width: 30vw;
+          }
+
+          @include tablet {
+            width: 30vw;
           }
         }
 
