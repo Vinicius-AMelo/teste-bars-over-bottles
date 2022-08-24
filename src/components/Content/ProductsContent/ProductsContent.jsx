@@ -8,14 +8,14 @@ import Button from '../../Button/Button'
 function ProductsContent() {
   return (
     <main className="main_content">
-      <div className="faixa">
+      <span className="faixa">
         <p>Home - </p>
         <p>Blusas e Camisas - </p>
         <p>Gravida Est Quis Euismod</p>
-      </div>
-      <div className="content">
+      </span>
+      <article className="content">
         <img src={img} alt="a" />
-        <span className="infos">
+        <article className="infos">
           <h1 className="name">Product Est Quis Euismod</h1>
           <h1>R$ 155.99</h1>
           <p>
@@ -55,8 +55,8 @@ function ProductsContent() {
           <hr />
           <h4>Especificações</h4>
           <hr />
-        </span>
-      </div>
+        </article>
+      </article>
       <h1 id="relational_products">PRODUTOS RELACIONADOS</h1>
       <CardList />
     </main>

@@ -18,7 +18,7 @@ function CategoriesContent() {
         <li>MASCULINO</li>
         <li>ACESSÓRIOS</li>
       </ul>
-      <div className="gege">
+      <span className="ordenacao">
         <div>
           <p>
             ORDERNAR:
@@ -30,7 +30,7 @@ function CategoriesContent() {
           </p>
         </div>
         <p>VIEW</p>
-      </div>
+      </span>
       <CardList />
       <ul className="menu">
         <li>1</li>
