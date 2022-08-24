@@ -11,23 +11,63 @@
     width: 50%;
     flex-direction: column;
 
-    #pictureOne {
-      background-image: url("../../public/assets/images/ca12.jpg");
+    #pictureOne,
+    #pictureTwo {
       height: 100%;
       padding: 10%;
+      background-size: 100%;
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      &:hover {
+        animation: scale 5s;
+      }
+    }
+
+    #pictureOne {
+      background-image: url("../../public/assets/images/ca13.jpg");
     }
 
     #pictureTwo {
-      background-image: url("../../public/assets/images/ca2.jpg");
-      height: 100%;
-      padding: 10%;
+      background-image: url("../../public/assets/images/ca23.jpg");
     }
   }
 
   #pictureThree {
-    background-image: url("../../public/assets/images/ca3.jpg");
+    background-image: url("../../public/assets/images/ca33.jpg");
+    background-position-x: -200px;
+    background-size: 150%;
     width: 50%;
     padding-top: 5%;
     padding-left: 10%;
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    &:hover {
+      animation: scaleBigPicture 5s;
+    }
+  }
+
+  @keyframes scale {
+    to {
+      background-size: 120%;
+      background-position-x: -100px;
+    }
+
+  }
+
+  @keyframes scaleBigPicture {
+    to {
+      background-size: 170%;
+      background-position-x: -300px;
+    }
+  }
+
+  a {
+    color: gray;
   }
 }

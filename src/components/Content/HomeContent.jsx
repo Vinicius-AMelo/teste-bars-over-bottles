@@ -10,6 +10,8 @@ function HomeContent() {
       </div>
       <h1>TENDÊNCIAS</h1>
       <HomePictures />
+      <hr />
+      <h1>POPULARES</h1>
       <CardList />
       <button type="button">VER MAIS PRODUTOS</button>
     </main>
