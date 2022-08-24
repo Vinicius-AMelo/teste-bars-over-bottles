@@ -1,12 +1,15 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react'
 import './ProductCard.scss'
 
 function ProductCard({ product }) {
   return (
     <div className="card">
-      <div />
-      <p>{product.name}</p>
-      <p>{product.price}</p>
+      <div className="gege" />
+      <div className="infos">
+        <p id="name">{product.name}</p>
+        <p>R$ {product.price}</p>
+      </div>
     </div>
   )
 }

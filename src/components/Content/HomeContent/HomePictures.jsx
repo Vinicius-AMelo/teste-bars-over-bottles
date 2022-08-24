@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../scss/HomePictures.scss'
+import '../../../scss/HomePictures.scss'
 
 function HomePictures() {
   return (

@@ -9,6 +9,7 @@ function Header() {
         <h1>AVIATO</h1>
         <p>R$ 0.00</p>
       </span>
+      <hr />
       <nav className="Header_nav">
         <ul>
           <li>HOME</li>

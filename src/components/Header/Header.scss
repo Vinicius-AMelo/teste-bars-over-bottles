@@ -1,14 +1,14 @@
 .main_header {
   margin: 0 auto;
-  height: 25vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 70%;
+  padding: 37.5px 0;
+  height: 250px;
+  width: 73.25vw;
 
   span {
     display: flex;
     justify-content: space-between;
+    padding: 0 2%;
+    margin-bottom: 55px;
 
     h1 {
       font-family: 'Libre Baskerville', serif;
@@ -16,10 +16,14 @@
     }
   }
 
+  hr {
+    border: 1px solid #ececec;
+  }
+
 
   .Header_nav {
-    margin: 0 auto;
-    width: 50%;
+    margin: 45px auto;
+    width: 39.375vw;
 
     ul {
       list-style: none;

@@ -28,7 +28,7 @@ function Footer() {
           <li>MINHA CONTA</li>
           <li>MEUS PEDIDOS</li>
         </ul>
-        <ul>
+        <ul className="icons">
           <li>f</li>
           <li>tw</li>
           <li>i</li>

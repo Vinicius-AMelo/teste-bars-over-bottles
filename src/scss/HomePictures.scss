@@ -1,21 +1,24 @@
 .pictures {
-  height: 80vh;
-  width: 70%;
+  height: 720px;
+  width: 68.75vw;
   display: flex;
   margin: 50px auto;
-  gap: 30px;
+
 
   .vertical_pictures {
     gap: 30px;
     display: flex;
-    width: 50%;
+    width: 33.75vw;
     flex-direction: column;
+    margin-right: 30px;
 
     #pictureOne,
     #pictureTwo {
-      height: 100%;
+      height: 345px;
+      width: 33.75vw;
       padding: 10%;
-      background-size: 100%;
+      background-size: 130%;
+      background-position-x: -100px;
 
       p {
         margin-bottom: 20px;
@@ -27,19 +30,20 @@
     }
 
     #pictureOne {
-      background-image: url("../../public/assets/images/ca13.jpg");
+      background-image: url("../assets/images/ca13.jpg");
     }
 
     #pictureTwo {
-      background-image: url("../../public/assets/images/ca23.jpg");
+      background-image: url("../assets/images/ca23.jpg");
     }
   }
 
   #pictureThree {
-    background-image: url("../../public/assets/images/ca33.jpg");
-    background-position-x: -200px;
-    background-size: 150%;
-    width: 50%;
+    background-image: url("../assets/images/ca33.jpg");
+    width: 33.75vw;
+    height: 720px;
+    background-size: 120%;
+    background-position-x: -80px;
     padding-top: 5%;
     padding-left: 10%;
 
@@ -54,16 +58,16 @@
 
   @keyframes scale {
     to {
-      background-size: 120%;
-      background-position-x: -100px;
+      background-size: 150%;
+      background-position-x: -200px;
     }
 
   }
 
   @keyframes scaleBigPicture {
     to {
-      background-size: 170%;
-      background-position-x: -300px;
+      background-size: 130%;
+      background-position-x: -130px;
     }
   }
 

@@ -10,20 +10,13 @@
   hr {
     margin: 0 auto;
     margin-bottom: 100px;
-    width: 70%;
+    width: 73.25vw;
     border: 1px solid #ececec;
   }
 
-  button {
-    height: 50px;
-    width: 10%;
-    margin: 0px auto;
-    margin-bottom: 100px;
-  }
-
   .banner {
-    background-image: url("../../public/assets/images/banner2.jpg");
-    height: 80vh;
-    margin-bottom: 100px;
+    background-image: url("../assets/images/banner2.jpg");
+    height: 676px;
+    margin-bottom: 90px;
   }
 }

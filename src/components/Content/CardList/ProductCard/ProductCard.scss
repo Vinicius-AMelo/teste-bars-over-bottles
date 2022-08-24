@@ -1,11 +1,24 @@
 .card {
-  // display: flex;
-  // flex-direction: column;
   gap: 20px;
+  height: 458px;
+  width: 306px;
 
-  div {
+  &:hover {
+    box-shadow: 3px 3px 8px #969696a2;
+  }
+
+  .gege {
     background-color: red;
-    height: 300px;
-    width: 234px;
+    height: 384px;
+    width: 306px;
+  }
+
+  .infos {
+    padding: 10px;
+
+    #name {
+      color: #777777;
+      margin-bottom: 10px;
+    }
   }
 }
